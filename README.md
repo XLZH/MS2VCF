@@ -14,7 +14,7 @@ Usage
 
 Note
 ==================
-In order to make the script more easier to use, there are some prerequisites
+In order to make the script more easier to use, there are some prerequisites:
 
 * The Haplotypes number must be even number (eg. 2, 4, 6, 8, ...)
 * Only one repeat is allowed in MS/MSMS (you could do multiple times with MS/MSMS)
