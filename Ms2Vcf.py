@@ -58,8 +58,7 @@ def main():
     header = '\t'.join([str(i+1) for i in xrange(ms.sam_num/2)])
     out_fp.write('#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\t%s\n' %header)
 
-    ''' construct the genotype with nearby two haplotypes
-    '''
+    # construct the genotype with nearby two haplotypes
     for p_idx in xrange(ms.pos_num):
         sam_geno = []
         for s_idx in xrange(0, ms.sam_num, 2):
